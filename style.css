@@ -1,0 +1,311 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand img{
+    width: 108px;
+    height: 23px;
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+
+.navbar li a{
+    font-size: 13px;
+    line-height: 19.5px;
+}
+.navbar{
+margin-left: 10px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+
+.new{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    background-color: #FFB900;
+    padding: 3px 13px;
+}
+
+.carousel-item
+{
+    
+
+    h1{
+    font-size:37px ;
+    font-weight: 600;
+    }
+    .btn
+{
+    background-color: #0067B8;
+    color: white;
+
+}
+}
+.carousel-caption
+{
+    width: 600px !important;
+    height: 35vh;
+}
+.ag{
+    transition: all  .3s;
+}
+ .ag:hover{
+
+    box-shadow:  rgb(0, 0, 0) 0px 0px 60px -12px; 
+}
+
+
+.lp10
+{
+left: 5% !important;
+top: 10% !important;
+}
+
+
+
+.links img
+{
+    width: 40px;
+    height: 40px;
+}
+.links li
+{
+    align-items: center;
+    
+
+}
+.links li a{
+    color: #0067B8;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.links{
+    margin-top: 100px;
+}
+.cards
+{
+    margin-top: 150px;
+    flex-wrap:wrap;
+    display: flex;
+}
+
+
+.cards .card,.cards2 .card{
+    cursor: pointer;
+    border-radius: 0px;
+    border: 0px;
+    box-shadow: 2px 2px 5px rgb(164, 164, 164);
+    h5{
+        font-size: 29px;
+        font-weight: 600;
+        text-align: left;
+        line-height: 34.8px;
+        
+    }
+
+}
+.cards .card img,.cards2 .card img{
+    border-radius: 0px;
+}
+
+.ab
+{
+width: 100%;
+    height: 550px;
+    background-image: url("./images/Highlight-Slim-Multi-Canvas-AEM-Game-Pass-Ultimate_VP5-1596x600.jpeg");
+    .btn
+{
+    background-color: #0067B8;
+    color: white;
+
+}
+.abc{
+    margin-left: 10%;
+    padding-top: 13%;
+}
+}
+.abcd{
+    display: none;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+
+    .btn
+{
+    background-color: #0067B8;
+    color: white;
+ 
+
+}
+}
+.cd{
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+padding-bottom: 5%;
+}
+.cards2 h2{
+    margin-left: 6%;
+    margin-top: 10%;
+    .cards{
+        margin-top: 0% !important;
+        font-size: 37px;
+    }
+}
+
+
+.cards2-container
+{
+    flex-wrap:wrap;
+    display: flex;
+    margin-top: 1%;
+    .btn
+{
+    background-color: #0067B8;
+    color: white;
+
+}
+}
+
+.Follow{
+    margin-left: 2%;
+    margin-top: 7%;
+    span{
+        font-size: 16px;
+        padding: 5px;
+    }
+    img{
+        width: 32px;
+        height: 32px;
+    }
+}
+.backtotop{
+    text-align: end;
+    margin-right: 1%;
+    .btn{
+        color: black;
+        background-color: rgba(128, 128, 128, 0.437);
+        
+    }
+    span{
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+footer{
+    h6{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 11px;
+    }
+    a{
+        text-decoration: none;
+        color: grey;
+
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.foot
+{
+    margin-left: 5% !important;
+    a{
+        margin-left: 1%;
+        font-size: 11px;
+    }
+
+    
+    
+}
+
+
+
+
+ .xbox-x
+{
+    margin-top: 40%;
+}
+.xbox-s{
+    margin-top: 32%;
+}
+
+.shopnow{
+    margin-top: 30%;
+
+}
+.teams{
+    margin-top: 18%;
+}
+.business{
+    margin-top: 10%;
+}
+.learnmore{
+    margin-top: 2%;
+}
+.sea{
+    display: none;
+    color: #000;
+}
+
+
+@media (min-width:320px) and (max-width:768px) {
+   
+    .carousel-item
+{
+    
+    h1{
+    font-size:25px ;
+    font-weight: 600;
+    }
+   
+} 
+.sea{
+    display: block;
+}
+    
+}
+
+
+
+@media (min-width:320px) and (max-width:1080px) {
+    .ab{
+        background-image: url("./images/ph.webp");
+        height: 300px;
+    }
+    .ab .abc{
+        display: none;
+    }
+   .abcd{
+    display: block;
+   }
+   .carousel-caption{
+    display: none;
+   }
+}
+
+
+@media (min-width:320px)and(max-width:900px){
+    .carousel-item{
+        box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+    }
+    .carousel-item .carousel-caption{
+        display: none;
+    }
+    .carousel-item {
+        height: 500px;
+    }
+    .carousel-caption{
+        scale: .8;
+    }
+}
